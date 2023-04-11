@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.FontPre{
+    font-family: 'Pretendard-Regular';
+}
+.FontCafe{
+    font-family: 'Cafe24Ssurround';
+}
+.FontNanum{
+    font-family: 'NanumSquareNeo-Variable';
+}
+ /* StartPage CSS */
+.btn_one{
+    position: absolute;
+    margin-left: -203px;
+    color:white;
+    width: 198px;
+    height: 40px;
+    font-size: 17px;
+    background: #4cb1ff;
+    border: #000000 solid 1px;
+    font-family: 'Cafe24Ssurround';
+    border-radius: 20px;
+    text-align: center;
+}
+.btn_one:hover{
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    background: #0b79ff;
+    /* border: 2px solid #ffffff; */
+}
+
+.btn_two{
+    position: absolute;
+    margin-left: 4px;
+    color:white;
+    width: 198px;
+    height: 40px;
+    font-size: 17px;
+    border: #000000 solid 1px;
+    background: #3891ff;
+    font-family: 'Cafe24Ssurround';
+    border-radius: 20px;
+    text-align: center;
+}
+.btn_two:hover{
+    position: absolute;
+    cursor: pointer;
+    color:white;
+    background: #0b79ff;
+}
+.inputCircle{
+    border-radius: 20px;
+    border: 1px solid #000000;
+}

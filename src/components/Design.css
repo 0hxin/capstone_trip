@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.FontPre{
+    font-family: 'Pretendard-Regular';
+}
+.FontCafe{
+    font-family: 'Cafe24Ssurround';
+}
+.FontNanum{
+    font-family: 'NanumSquareNeo-Variable';
+}
+
+/* Baner, Search CSS */
+.inputFind{
+    border-radius: 20px;
+    border: 1px solid #000000;
+    background-color : white;
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Pretendard-Regular';
+    margin-right: 15px;
+}
+
+.SearchBtn{
+    color : rgb(99, 96, 83);
+}
+.SearchBtn:hover{
+    cursor: pointer;
+    color : black;
+}
+
+.LocatBtn{
+    color: rgb(99, 96, 83);
+}
+.LocatBtn:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.line{
+    width: 100%;
+    border-bottom: 1px solid #aaa;
+    line-height: '0.1em';
+}
+
+/* Page Color */
+.Page{
+    background: #eae6e350;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+/* Main CSS */
+.MainBtn{
+    position: absolute;
+    color:#95e2ec;
+    width: 120px;
+    height: 90px;
+    background: white;
+    border: #ffffff solid 1px;
+    box-shadow: 3px 3px 0 0 rgba(92, 94, 95, 0.1);
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+.MainBtn:hover{
+    color:#95e2ec;
+    background: rgb(244, 244, 244);
+}

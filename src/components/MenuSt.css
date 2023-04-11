@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.FontPre{
+    font-family: 'Pretendard-Regular';
+}
+.FontCafe{
+    font-family: 'Cafe24Ssurround';
+}
+.FontNanum{
+    font-family: 'NanumSquareNeo-Variable';
+}
+
+.MenuBar{
+    position: relative;
+    margin-left: 10px;
+    width: 100px;
+    height: 425px;
+    background:white;
+    border-radius: 40px;
+    box-shadow: 3px 3px 0 0 rgba(92, 94, 95, 0.1);
+    overflow: hidden;
+}
+
+.MenuBtn{
+    position: absolute;
+    margin-left: -48px;
+    color:#95e2ec;
+    width: 90px;
+    height: 60px;
+    background: white;
+    border: #ffffff solid 1px;
+    box-shadow: 3px 3px 0 0 rgba(92, 94, 95, 0.1);
+    border-radius: 40px;
+    cursor: pointer;
+    object-fit: cover;
+}
+.MenuBtn.active{
+    color:white;
+    background: #8fdee9;
+}
